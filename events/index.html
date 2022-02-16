@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Event Handeller</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <h2 class="text-center black-text">Javascript Events</h2>
+        <p class="text-center black-text">
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.<br>
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id orci porta dapibus.
+        </p>
+    </header>
+    <main>
+        <div class="container p-5">
+            <div class="d-flex justify-content-center">
+               <button title="Onclick shortcut" onclick="console.log(Math.random()*1000)" type="button" class="btn btn-info text-light m-2">Console a Random Number</button>
+               <button title="Onclick with function" onclick="darkBg()"  type="button" class="btn btn-success text-light m-2">Dark Background</button>
+               <button title="ID and function" id="whiteBGbtn" type="button" class="btn btn-dark text-light m-2">White Background</button>
+               <button title="ID and annonymous function" id="purpleBg" type="button" class="btn btn-danger text-light m-2">Purple Background</button>
+
+            
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
